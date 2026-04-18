@@ -1,4 +1,5 @@
 import Phaser from 'phaser';
+import { CharacterCreation } from './scenes/CharacterCreation.js';
 import { HutInterior } from './scenes/HutInterior.js';
 import { Village } from './scenes/Village.js';
 
@@ -13,7 +14,7 @@ const config = {
     default: 'arcade',
     arcade: { gravity: { y: 0 }, debug: false },
   },
-  scene: [HutInterior, Village],
+  scene: [CharacterCreation, HutInterior, Village],
 };
 
 const game = new Phaser.Game(config);
