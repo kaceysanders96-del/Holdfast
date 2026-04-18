@@ -1,0 +1,24 @@
+{
+  "name": "remnant-earth",
+  "version": "0.1.0",
+  "description": "A live, authored open world — post-apocalyptic Earth, reclaimed by nature, inhabited by humans, alien remnants, and one very lonely AI.",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "eslint src/**/*.js --fix",
+    "format": "prettier --write src/**/*.js src/**/*.json"
+  },
+  "dependencies": {
+    "phaser": "^3.60.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}

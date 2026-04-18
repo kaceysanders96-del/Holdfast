@@ -1,0 +1,102 @@
+[
+  {
+    "id": "bed",
+    "lines": [
+      { "speaker": "", "text": "Your body remembers the shape of this mat. The straw underneath is old and familiar. Morning light presses through the oiled paper window like something patient and insistent." },
+      { "speaker": "", "text": "You have slept here every night of your life. Today something feels different. The light seems more deliberate than usual, as if it chose this moment." }
+    ],
+    "onComplete": {
+      "quest": "stretch",
+      "morality": null
+    }
+  },
+  {
+    "id": "bowl",
+    "lines": [
+      { "speaker": "", "text": "A clay bowl, still warm against your palms. Your grandmother must have risen before first light to leave it here. Millet porridge, dried berries. She always adds too much honey." },
+      { "speaker": "", "text": "You eat slowly. Outside, the village is already beginning its morning — the sound of the well's rope, a low voice singing something old." }
+    ],
+    "onComplete": {
+      "quest": "bowl",
+      "morality": null
+    }
+  },
+  {
+    "id": "shrine",
+    "lines": [
+      { "speaker": "The Shrine of the Mother", "text": "A small niche carved into the stone wall. A smooth river stone your grandmother brought from the valley the year you were born. Dried flowers. A candle burned nearly to nothing." },
+      { "speaker": "The Shrine of the Mother", "text": "You press your fingers to the cool stone. The candle catches without you lighting it. It always does, here. You stopped finding it strange years ago." },
+      { "speaker": "The Shrine of the Mother", "text": "You don't say anything. You don't need to. In the Mother faith, the gesture is the prayer. The willingness to pause is the devotion." }
+    ],
+    "onComplete": {
+      "quest": "shrine",
+      "morality": { "dimension": "memory", "delta": 6, "event": "Paused to offer thanks at the shrine before leaving" }
+    }
+  },
+  {
+    "id": "shelf",
+    "lines": [
+      { "speaker": "", "text": "A row of objects that have never fully made sense to you. A compass with a cracked face that no longer points north. A folded cloth embroidered with symbols in a script no one in the village can read." },
+      { "speaker": "", "text": "And a small gear, intricately made, from a machine that no longer exists. These belonged to your parent. No one speaks about where they went. You stopped asking when you were nine." }
+    ],
+    "onComplete": {
+      "quest": null,
+      "morality": { "dimension": "memory", "delta": 3, "event": "Examined the parent's objects on the shelf" }
+    }
+  },
+  {
+    "id": "chest",
+    "lines": [
+      { "speaker": "", "text": "Your things. A change of clothes in earth tones, a short knife your grandmother gave you for foraging, a leather cord she braided when you were small. She worked three days on it." },
+      { "speaker": "", "text": "At the bottom, beneath everything else, a folded piece of paper. Your name is written on it in handwriting you don't recognize. You have never opened it. You're not sure why." }
+    ],
+    "onComplete": {
+      "quest": null,
+      "morality": null
+    }
+  },
+  {
+    "id": "window",
+    "lines": [
+      { "speaker": "", "text": "From here you can see the edge of the gathering circle. Elder Voss is already up, sweeping ash from the standing stones with a bundle of dry grass. He does this every morning, has done it for thirty years." },
+      { "speaker": "", "text": "The sky is pale green at the horizon — the color it goes before the sun fully clears the treeline. Your grandmother says that color is the Mother breathing out. Releasing the night back to the dark." }
+    ],
+    "onComplete": {
+      "quest": null,
+      "morality": null
+    }
+  },
+  {
+    "id": "pots",
+    "lines": [
+      { "speaker": "", "text": "Three pots in a row, oldest to newest by their color. Seeds in the first — you can hear them shift when you pick it up. Dried herbs in the second, pungent and earthy." },
+      { "speaker": "", "text": "The third is sealed with dark red wax, smooth and unbroken. Your grandmother placed it there the year you turned seven. She has never said what's inside. You have never asked twice." }
+    ],
+    "onComplete": {
+      "quest": null,
+      "morality": { "dimension": "restraint", "delta": 4, "event": "Did not try to open the sealed pot" }
+    }
+  },
+  {
+    "id": "lantern",
+    "lines": [
+      { "speaker": "", "text": "The lantern oil is almost gone. The flame is just a breath now, barely there. You meant to refill it last night. You forgot. You always forget the lantern." }
+    ],
+    "onComplete": {
+      "quest": null,
+      "morality": null
+    }
+  },
+  {
+    "id": "door",
+    "lines": [
+      { "speaker": "", "text": "The village is already awake. You can hear it through the wood — fire crackling, the well rope turning, two voices in gentle disagreement about something you can't make out." },
+      { "speaker": "", "text": "You push the door open. Morning air comes in smelling of pine smoke and wet soil and something green that has no name. The light is gold and soft and full of promise." }
+    ],
+    "onComplete": {
+      "quest": "door",
+      "morality": null,
+      "sceneTransition": "Village"
+    }
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "fire",
+    "lines": [
+      { "speaker": "Grandmother Soel", "text": "You remember how your father showed you. Small things first — tinder, breath, patience. The Mother does not reward rushing." },
+      { "speaker": "Grandmother Soel", "text": "Good. Let it catch. The smoke carries our gratitude up through the canopy. She hears it." }
+    ],
+    "onComplete": {
+      "quest": "fire",
+      "morality": { "dimension": "memory", "delta": 4, "event": "Listened to Grandmother Soel at the fire" }
+    }
+  },
+  {
+    "id": "well",
+    "lines": [
+      { "speaker": "Maret", "text": "Morning. Don't take more than the bucket holds. The well has been quiet lately — Dovin thinks the eastern spring is shifting again." },
+      { "speaker": "Maret", "text": "He's probably right. He usually is about the water. Wrong about most everything else, mind you." }
+    ],
+    "onComplete": {
+      "quest": "water",
+      "morality": { "dimension": "restraint", "delta": 5, "event": "Took only what was needed from the well" }
+    }
+  },
+  {
+    "id": "elder",
+    "lines": [
+      { "speaker": "Elder Voss", "text": "Gather close. Today we give thanks for the fifty-third year of the Green Return. The soil remembers what was done to it. And it remembers what we chose to do differently." },
+      { "speaker": "Elder Voss", "text": "The Mother is not a name for something that lives above us. She is the name for what lives between us — between our hands and the ground, between our breath and the trees." },
+      { "speaker": "Elder Voss", "text": "Go gently today. The world is listening, as it always has been." }
+    ],
+    "onComplete": {
+      "quest": "elder",
+      "morality": { "dimension": "memory", "delta": 6, "event": "Attended Elder Voss's morning blessing" }
+    }
+  },
+  {
+    "id": "stranger",
+    "lines": [
+      { "speaker": "???", "text": "You have kind eyes. I've been watching this settlement for three days deciding whether to knock. Most places... you can tell by the smoke what kind of people live there." },
+      { "speaker": "???", "text": "Yours smells like pine and old bread. I decided to knock." }
+    ],
+    "onComplete": {
+      "quest": null,
+      "morality": { "dimension": "inclusion", "delta": 5, "event": "Approached the stranger near the village edge" }
+    }
+  }
+]
