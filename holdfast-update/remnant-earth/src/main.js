@@ -8,7 +8,6 @@ const config = {
   height: 560,
   parent: 'game',
   transparent: true,
-  backgroundColor: 'rgba(0,0,0,0)',
   physics: {
     default: 'arcade',
     arcade: { gravity: { y: 0 }, debug: false },
